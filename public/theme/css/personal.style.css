@@ -1,0 +1,77 @@
+.btn--icon {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.6rem;
+}
+
+table.dataTable thead {
+    background: #32c787;
+    color: #fff !important;
+}
+
+.dataTables_wrapper .table>thead>tr>th:hover {
+    background: #32c787;
+    color: #fff !important;
+}
+
+.table td {
+    padding: 0.7rem 1.5rem
+}
+
+.fixed-action-btn {
+    position: fixed;
+    right: 10px;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group--float {
+    margin-top: .5rem;
+}
+
+@media (min-width: 992px) {
+    .modal-lg,
+    .modal-xl {
+        max-width: 900px;
+    }
+}
+
+.modal-header {
+    padding: 15px 30px 15px;
+    background: #32c787;
+}
+
+.modal-header h5 {
+    color: #fff !important;
+    font-weight: bolder;
+}
+
+.modal-footer {
+    padding: 20px 25px;
+}
+
+.modal .select2-container--open .select2-dropdown {
+    z-index: 1000;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 1.1;
+}
+
+.select-form-group-float {
+    margin-top: -.875rem;
+}
+
+.select-form-group-float label {
+    font-size: .875rem;
+}
+
+.select2-container--open>label {
+    color: #03A9F4;
+}
